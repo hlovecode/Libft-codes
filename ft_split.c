@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
+/*   By: hL <hL@stu.42.fr>                          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 17:57:55 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/07 18:28:04 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/08 14:12:14 by hL               ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,17 +101,7 @@ static int	ft_fill_split(char **result, char const *s, char c)
 
 char	**ft_split(char const *s, char c)
 {
-	char	**result;
-	int		word_num;
 
-	if (!s)
-		return (NULL);
-	word_num = get_words_num(s, c);
-	result = malloc(sizeof(char *) * (word_num + 1));
-	if (!result)
-		return (NULL);
-	if (!ft_fill_split(result, s, c))
-		return (NULL);
-	return (result);
 }
+
 
