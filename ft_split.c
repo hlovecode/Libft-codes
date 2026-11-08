@@ -6,7 +6,7 @@
 /*   By: hL <hL@stu.42.fr>                          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 17:57:55 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/08 14:12:14 by hL               ###   ########.fr       */
+/*   Updated: 2026/11/08 14:18:18 by hL               ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,7 @@ static int	ft_fill_split(char **result, char const *s, char c)
 
 char	**ft_split(char const *s, char c)
 {
+	int i;
 
+	i = 0;
 }
-
-
