@@ -6,13 +6,13 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 10:52:55 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/12 12:21:58 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/12 12:23:40 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	count_words(char const *s, char c)
+static size_t	count_words(char const *s, char c)
 {
 	size_t	count;
 
