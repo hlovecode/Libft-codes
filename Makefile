@@ -6,7 +6,7 @@
 #    By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/11/13 09:48:30 by hualei            #+#    #+#              #
-#    Updated: 2026/11/13 20:49:40 by hualei           ###   ########.fr        #
+#    Updated: 2026/11/13 20:56:13 by hualei           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,7 +57,3 @@ OBJS = $(SRCS:.c=.o)
 # assemble .o to .a
 AR = ar
 ARFLAGS = rcs
-<<<<<<< HEAD
-
-=======
->>>>>>> 665020e (Makefile)
