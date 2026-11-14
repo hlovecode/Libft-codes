@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 15:35:29 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/12 22:25:51 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 16:32:20 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <stddef.h>
 # include <stdlib.h>
 # include <string.h>
+# include <stdint.h>
 # include <unistd.h>
 
 typedef struct s_list
