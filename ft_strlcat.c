@@ -6,11 +6,11 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 18:26:22 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/05 18:42:04 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 08:47:49 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
- #include "libft.h"
+#include "libft.h"
 
 // 把 src 字符串追加到 dst 字符串的末尾，同时最多只使用 dst 所提供的 size 个字节
 size_t	ft_strlcat(char *dst, const char *src, size_t size)

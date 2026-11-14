@@ -6,11 +6,11 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 18:53:16 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/07 17:14:57 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 08:32:47 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *str, int c)
 {

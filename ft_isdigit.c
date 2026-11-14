@@ -6,15 +6,14 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 10:55:00 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/09 10:55:03 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 08:43:43 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 // isdigit 判断字符是不是ASCII十进制数字字符‘0’-‘9’
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    if (c >= '0' && c <= '9')
-        return (1);
-    return (0);
+	if (c >= '0' && c <= '9')
+		return (1);
+	return (0);
 }

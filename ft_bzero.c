@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 16:31:04 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/05 16:47:38 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 08:42:16 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 // 从 s 指向的内存地址开始，把连续的 n 个字符全部设置为0
 void	ft_bzero(void *s, size_t n)
 {
-	unsigned char *p;
+	unsigned char	*p;
 
 	p = (unsigned char *)s;
 	while (n > 0)

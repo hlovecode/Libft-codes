@@ -6,21 +6,21 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 10:53:56 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/09 10:53:58 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 09:17:11 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(char const *s)
-{
-	size_t	i;
+//static size_t	ft_strlen(char const *s)
+//{
+//	size_t	i;
 
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
-}
+//	i = 0;
+//	while (s[i])
+//		i++;
+//	return (i);
+//}
 
 static void	fill_string(char *new_str, char const *s, char (*f)(unsigned int,
 			char))

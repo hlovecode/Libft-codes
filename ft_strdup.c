@@ -6,13 +6,13 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 19:25:58 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/05 19:26:38 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 08:38:18 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcpy(char *dst, const char *src)
+static char	*ft_strcpy(char *dst, const char *src)
 {
 	size_t	i;
 

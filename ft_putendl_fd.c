@@ -6,13 +6,13 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 10:50:55 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/09 11:01:05 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 08:46:06 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	get_strlen(char *s)
+static int	get_strlen(char *s)
 {
 	int	i;
 

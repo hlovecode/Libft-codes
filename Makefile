@@ -6,16 +6,18 @@
 #    By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/11/13 09:48:30 by hualei            #+#    #+#              #
-#    Updated: 2026/11/13 20:56:13 by hualei           ###   ########.fr        #
+#    Updated: 2026/11/14 09:10:54 by hualei           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+# variables
 NAME = libft.a
-
-# compile .c to .o
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
+all: $(NAME)
+
+# source files
 SRCS = ft_atoi.c \
        ft_bzero.c \
        ft_calloc.c \
@@ -49,11 +51,33 @@ SRCS = ft_atoi.c \
        ft_strtrim.c \
        ft_substr.c \
        ft_tolower.c \
-       ft_toupper.c
+       ft_toupper.c \
+	   ft_lstnew.c
 
 # change all .c to .o because static lib is made of .o
 OBJS = $(SRCS:.c=.o)
 
-# assemble .o to .a
+# compile .c to .o
+# -c only compilation, not doing link
+%.o: %.c libft.h
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# ar assemble .o to .a
 AR = ar
 ARFLAGS = rcs
+
+$(NAME): $(OBJS)
+	$(AR) $(ARFLAGS) $(NAME) $(OBJS)
+
+# remove object files
+clean:
+	rm -f $(OBJS)
+
+# remove object files and static library
+fclean: clean
+	rm -f $(NAME)
+
+# rebuild static library
+re: fclean all
+
+.PHONY: all clean fclean re

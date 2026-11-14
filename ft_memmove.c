@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 17:47:36 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/05 17:55:42 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/14 08:45:30 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,15 @@
 // 并且即使源区域和目标区域发生重叠，也能够正确复制
 void	*ft_memmove(void *dst, const void *src, size_t n)
 {
-	unsigned char *d;
-	unsigned char *s;
+	unsigned char	*d;
+	unsigned char	*s;
 
 	d = (unsigned char *)dst;
 	s = (unsigned char *)src;
 	if (d < s)
 	{
 		while (n--)
-			*d++ =  *s++;
+			*d++ = *s++;
 	}
 	else if (d > s)
 	{
