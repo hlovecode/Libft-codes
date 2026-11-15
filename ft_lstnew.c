@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/12 22:21:05 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/12 22:22:12 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/15 20:21:34 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,12 @@
  */
 t_list	*ft_lstnew(void *content)
 {
-	t_list	*elem;
+	t_list	*node;
 
-	elem = malloc(sizeof(t_list));
-	if (!elem)
+	node = malloc(sizeof(t_list));
+	if (!node)
 		return (NULL);
-	elem->content = content;
-	elem->next = NULL;
-	return (elem);
+	node->content = content;
+	node->next = NULL;
+	return (node);
 }

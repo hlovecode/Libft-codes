@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 11:02:26 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/09 11:07:58 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/15 12:40:37 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,4 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 	ft_putnbr_recursive(nb, fd);
 }
+
