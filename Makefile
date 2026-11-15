@@ -6,7 +6,7 @@
 #    By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/11/13 09:48:30 by hualei            #+#    #+#              #
-#    Updated: 2026/11/14 09:10:54 by hualei           ###   ########.fr        #
+#    Updated: 2026/11/15 21:33:48 by hualei           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,7 +52,15 @@ SRCS = ft_atoi.c \
        ft_substr.c \
        ft_tolower.c \
        ft_toupper.c \
-	   ft_lstnew.c
+	   ft_lstnew.c \
+	   ft_lstadd_front.c \
+	   ft_lstsize.c \
+	   ft_lstlast.c \
+	   ft_lstadd_back.c \
+	   ft_lstdelone.c \
+	   ft_lstclear.c \
+	   ft_lstiter.c \
+	   ft_lstmap.c 
 
 # change all .c to .o because static lib is made of .o
 OBJS = $(SRCS:.c=.o)
