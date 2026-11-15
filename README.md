@@ -225,4 +225,4 @@ Inevitably, to finish this project, in addition to the man pages, I also check o
 
 The project has been tested with the following testers:
 
-- [GitHub - SplatchAK/testeur_des_fous_libft](https://github.com/SplatchAFK/testeur_des_fous_libft)
+- [GitHub - SplatchAK/testeur_des_fous](https://github.com/SplatchAFK/testeur_des_fous)
