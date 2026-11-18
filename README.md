@@ -205,11 +205,11 @@ typedef struct    s_list
 
 ### Instructions
 
-- A description of AI (chat GPT) usage
+- Run make to compile the library
 
-  - explain the functionality, parameters, and return values of certain functions
+- Simple clean that will only remove the object files : make clean
 
-  - understand header files and how to build them
+- Full clean that will remove object files as well as the library : make fclean
 
 ### Resources
 
@@ -226,3 +226,10 @@ Inevitably, to finish this project, in addition to the man pages, I also check o
 The project has been tested with the following testers:
 
 - [GitHub - SplatchAK/testeur_des_fous](https://github.com/SplatchAFK/testeur_des_fous)
+
+### Description of AI (chat GPT) usage
+
+- explain the functionality, parameters, and return values of certain functions
+
+- understand header files and how to build them
+
