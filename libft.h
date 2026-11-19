@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 15:35:29 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/15 21:23:46 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/19 15:54:25 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int					ft_tolower(int c);
 int					ft_atoi(const char *str);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 int					ft_memcmp(const void *s1, const void *s2, size_t n);
-int					ft_lstsize(t_list *lst);
+unsigned int		ft_lstsize(t_list *lst);
 void				ft_bzero(void *s, size_t n);
 void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 void				ft_putchar_fd(char c, int fd);
