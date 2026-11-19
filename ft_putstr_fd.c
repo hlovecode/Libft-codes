@@ -6,11 +6,11 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 10:52:22 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/14 08:46:19 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/19 16:54:52 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libc.h"
+#include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {
